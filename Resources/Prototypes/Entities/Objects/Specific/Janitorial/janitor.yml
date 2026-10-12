@@ -40,7 +40,7 @@
   - type: Absorbent
     useAbsorberSolution: true
   - type: UseDelay
-    delay: 1
+    delay: 0.25
   - type: PhysicalComposition
     materialComposition:
       Plastic: 50
