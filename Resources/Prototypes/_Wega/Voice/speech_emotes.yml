@@ -81,6 +81,7 @@
   name: chat-emote-name-bubble
   category: Vocal
   available: false
+  icon: Interface/VerbIcons/bubbles.svg.192dpi.png
   whitelist:
     components:
     - Vocal
