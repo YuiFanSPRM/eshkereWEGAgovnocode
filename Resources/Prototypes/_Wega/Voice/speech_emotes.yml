@@ -75,3 +75,24 @@
     - revved
     - газует
     - газовать
+
+- type: emote
+  id: SlimeBubble
+  name: chat-emote-name-bubble
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-bubble"] # Corvax-Localization
+  chatTriggers:
+    - bubble
+    - bubbles
+    - bubbling
+    - bubbled
+    - бурлит
+    - бурлить
+    - бурлю
