@@ -124,6 +124,7 @@
     emoteSounds: MaleSlime
   - type: Damageable
     damageModifierSet: Slime
+  - type: Geras # Corvax-Wega-Geras
   - type: PassiveDamage # Around 8 damage a minute healed
     intervalHaltOnDamageTaken: 5s
     allowedStates:
