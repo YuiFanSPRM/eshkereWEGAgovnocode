@@ -8,7 +8,7 @@ using Robust.Shared.Player;
 namespace Content.Server.Geras;
 
 /// <inheritdoc/>
-public sealed class GerasSystem : SharedGerasSystem
+public sealed partial class GerasSystem : SharedGerasSystem
 {
     [Dependency] private ActionsSystem _actions = default!;
     [Dependency] private PolymorphSystem _polymorph = default!;
