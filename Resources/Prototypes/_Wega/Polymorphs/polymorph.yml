@@ -39,6 +39,17 @@
     revertOnCrit: false
     revertOnDeath: false
 
+- type: polymorph
+  id: SlimeMorphGeras
+  configuration:
+    entity: MobSlimesGeras
+    transferName: true
+    transferHumanoidAppearance: false
+    inventory: Drop
+    transferDamage: true
+    revertOnDeath: true
+    revertOnCrit: true
+
 #Genetics
 - type: polymorph
   id: HulkPolymorph

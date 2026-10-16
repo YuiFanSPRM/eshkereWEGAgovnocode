@@ -83,3 +83,24 @@
       map: ["enum.ActionVisuals.Icon"]
   - type: InstantAction
     event: !type:ActivateImplantEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionMorphGeras
+  name: Morph into Geras
+  description: Morphs you into a Geras - a miniature version of you which allows you to move fast, at the cost of your inventory.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ConfirmableAction
+    popup: gera-transformation-popup
+  - type: Action
+    itemIconStyle: BigAction
+    useDelay: 10 # prevent spam
+    priority: -20
+  - type: Sprite
+    sprite: Mobs/Aliens/slimes.rsi
+    layers:
+    - state: blue_adult_slime
+      map: ["enum.ActionVisuals.Icon"]
+  - type: InstantAction
+    event: !type:MorphIntoGeras
